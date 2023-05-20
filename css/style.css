@@ -120,6 +120,12 @@
     font-size: 1.5em;
     font-weight: 700;
   }
+
+@media (max-width:750px) {
+    .header__phone {
+        text-align: center;
+    }
+}
   
   /* Слоган */
   .slogan{
@@ -1095,3 +1101,10 @@
       display: none;
     }
   }
+
+@media (max-width : 760px) {
+    .buttonup {
+        position: absolute;
+        left: 25px;
+    }
+}
