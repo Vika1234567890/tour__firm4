@@ -40,7 +40,7 @@
          url('../fonts/ubuntu-v20-latin_cyrillic-700.svg#Ubuntu') format('svg'); /* Legacy iOS */
   }
    
-  /*Стиили для всего сайта*/
+  /* Стиили для всего сайта */
   *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -84,7 +84,7 @@
     text-align: center
   }
   
-  /*Шапка*/
+  /* Шапка */
   .header {
     position: absolute;
     top: 0;
@@ -121,7 +121,7 @@
     font-weight: 700;
   }
   
-  /*Слоган*/
+  /* Слоган */
   .slogan{
     position: relative;
     justify-content: center;
