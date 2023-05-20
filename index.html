@@ -6,8 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Шангри-Ла</title>
 
-	<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
@@ -84,18 +82,6 @@
 	<section class="filter">
 		<h2 class="section-title">Горящие туры по направлениям</h2>
 		<div class="ff-container">
-			<!-- <input type="radio" name="categories" id="all" class="filter-radio" value="all">
-            <input type="radio" name="categories" id="rus" class="filter-radio" value="rus">
-            <input type="radio" name="categories" id="ind" class="filter-radio" value="ind">
-            <input type="radio" name="categories" id="kit" class="filter-radio" value="kit">
-            <input type="radio" name="categories" id="viet" class="filter-radio" value="viet">
-            <ul class="filter-controls">
-                <li><label class="controls-label" for="all">Все направления</label></li>
-                <li><label class="controls-label" for="rus">Россия</label></li>
-                <li><label class="controls-label" for="ind">Индонезия</label></li>
-                <li><label class="controls-label" for="china">Китай</label></li>
-                <li><label class="controls-label" for="vet">Вьетнам</label></li>
-            </ul> -->
 			<input id="all" name="radio" type="radio" class="ff-all" checked="checked" value="all"/>
 			<label for="all">Все направления</label>
 			<input id="rus" name="radio" type="radio" value="rus"/>
@@ -131,7 +117,6 @@
 					<h4 class="card-price">81666 руб.</h4>
 					<p class="card-country">Индонезия</p>
 				</div>
-
 				<div class="card item-kit" data-category="kit">
 					<img class="card-img"src="img/t5.jpg" alt="тур"/>
 					<h3 class="card-resort">Санья</h3>
@@ -156,8 +141,8 @@
 					<h4 class="card-price">72800 руб.</h4>
 					<p class="card-country">Вьетнам</p>
 				</div>
+			</div>
 		</div>
-	</div>
 	</section>
 
 	<!-- Консультанты -->
@@ -312,14 +297,14 @@
 				<div class="form-group1 form-group1_adaprive">
 					<label>Предпочтительный способ связи</label>
 					<label class="custom-radio">
-                        <input type="radio" name="communication" value="write">
-                        <span>напишите на указанный email</span>
-                      </label>
-                      <label class="custom-radio">
-                        <input type="radio" name="communication" value="call">
-                        <span>позвоните</span>
-                      </label>
-            	</div>
+						<input type="radio" name="communication" value="write">
+						<span>напишите на указанный email</span>
+					</label>
+					<label class="custom-radio">
+						<input type="radio" name="communication" value="call">
+						<span>позвоните</span>
+					</label>
+				</div>
 				<div class="form-group">
 					<label>Во сколько позвонить</label>
 					<input type="time">
@@ -328,21 +313,41 @@
 					<label>Дополнительные комментарии</label>
 					<textarea></textarea>
 				</div>
-				
 				<div class="button-form">
 					<button class="submit" type="submit">Отправить заявку</button>
 				</div>
 			</form>
-			 </div>
+		</div>
 	</section>
+	
 	<!-- Футер -->
 	<footer class="footer">
 		<ul class="footer-social">
-			<li class="social__item"><a class="social-link"href="#"><i class="fa fa-twitter-square"></i></a></li>
-			<li class="social__item"><a class="social-link"href="#"><i class="fa fa-facebook-square"></i></a></li>
-			<li class="social__item"><a class="social-link"href="#"><i class="fa fa-snapchat-square"></i></a></li>
-			<li class="social__item"><a class="social-link"href="#"><i class="fa fa-pinterest-square"></i></a></li>
-			<li class="social__item"><a class="social-link"href="#"><i class="fa fa-github-square"></i></a></li>
+			<li class="social__item">
+				<a class="social-link"href="#">
+					<i class="fa fa-twitter-square"></i>
+				</a>
+			</li>
+			<li class="social__item">
+				<a class="social-link"href="#">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+			</li>
+			<li class="social__item">
+				<a class="social-link"href="#">
+					<i class="fa fa-snapchat-square"></i>
+				</a>
+			</li>
+			<li class="social__item">
+				<a class="social-link"href="#">
+					<i class="fa fa-pinterest-square"></i>
+				</a>
+			</li>
+			<li class="social__item">
+				<a class="social-link"href="#">
+					<i class="fa fa-github-square"></i>
+				</a>
+			</li>
 		</ul>
 		<p>Сайт разработал Иванов Иван</p>
 		<div>
